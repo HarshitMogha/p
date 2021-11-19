@@ -1,0 +1,8 @@
+Q= write a java program which acts the user to enter his/her name and gets print the  "Hello <name> have a good day" text.!!
+Ans.
+
+
+ System.out.print("What is your name");
+        Scanner sc = new Scanner(System.in);
+        String name = sc.next();
+        System.out.println("Hello " + name + " have a good day!");
