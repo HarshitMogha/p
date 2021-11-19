@@ -1,0 +1,9 @@
+Q= write a java program to convert kilometers to miles.
+Ans. 
+
+ double kilometers;
+        System.out.print("Please enter the number of kilometers:");
+        Scanner in = new Scanner(System.in);
+        kilometers = in.nextDouble();
+        double miles = kilometers / 1.6;
+        System.out.println(miles + "Miles");
